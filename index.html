@@ -7,13 +7,21 @@
     <!-- Importing Web Component's Polyfill -->
     <script src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
 
+    <style type="text/css">
+    .wrapper {
+    	width: 250px;
+    	margin: auto;
+    }
+    </style>
+
     <!-- Importing Custom Elements -->
-    <link rel="import" href="src/my-element.html">
+    <link rel="import" href="src/se-badge.html">
 </head>
 <body>
-
-    <!-- Using Custom Elements -->
-    <my-element></my-element>
+	<div class="wrapper">
+	    <!-- Using Custom Elements -->
+	    <se-badge userid="1470979"></se-badge>
+	</div>
 
 </body>
 </html>
