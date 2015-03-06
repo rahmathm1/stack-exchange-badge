@@ -1,4 +1,5 @@
 Stackoverflow.Com Flair
+------------------------
 
 > This a custom element developed using [Polymer](http://www.polymer-project.org/).
 
